@@ -1,7 +1,7 @@
 {
   "development": {
-    "uaaURL": "https://39945444-e1b4-4f5a-b217-d4ca46f1c080.predix-uaa.run.aws-usw02-pr.ice.predix.io",
-    "base64ClientCredential": "YWJoaXNoZWs6Y2RubTAwNDc=",
-    "timeseriesZoneId": "fbb27df3-531f-4c04-8684-0fe906c81c97"
+    "uaaURL": "{The UAA URI end point to get auth token }",
+    "base64ClientCredential": "{Get clientID:clientSecret for services then base64 encode and place it here}",
+    "timeseriesZoneId": "{The Zone ID for the Timeseries Service Created}"
   }
 }
