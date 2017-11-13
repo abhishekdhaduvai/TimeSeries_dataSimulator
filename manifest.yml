@@ -1,0 +1,13 @@
+---
+applications:
+  - name: pae-datasimulator
+    memory: 128M
+    timeout: 180
+    buildpack: nodejs_buildpack
+    command: node app.js
+    path: dist
+env:
+    node_env: cloud
+    uaaURL: https://39945444-e1b4-4f5a-b217-d4ca46f1c080.predix-uaa.run.aws-usw02-pr.ice.predix.io
+    base64ClientCredential: dGVzdDp0ZXN0
+    timeSeriesZoneId: fbb27df3-531f-4c04-8684-0fe906c81c97
